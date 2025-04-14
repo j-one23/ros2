@@ -1,0 +1,73 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:1[m[K:
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:10:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   10 |     [01;31m[K>[m[Kdata.c_str());
+      |     [01;31m[K^[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:10:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+   10 |     >[01;31m[Kdata[m[K.c_str());
+      |      [01;31m[K^~~~[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:20:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |     [01;31m[K>[m[Kcreate_subscription<std_msgs::msg::String>("topic_pub1",qos_profile,fn);
+      |     [01;31m[K^[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:20:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::create_subscription[m[K’?
+   20 |     >[01;31m[Kcreate_subscription[m[K<std_msgs::msg::String>("topic_pub1",qos_profile,fn);
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |      [32m[Krclcpp::create_subscription[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:42[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/create_subscription.hpp:80:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::create_subscription[m[K’ declared here
+   80 | [01;36m[Kcreate_subscription[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:20:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |     >create_subscription<std_msgs::msg::String[01;31m[K>[m[K("topic_pub1",qos_profile,fn);
+      |                                               [01;31m[K^[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:20:49:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   20 |     >create_subscription<std_msgs::msg::String>([01;35m[K"topic_pub1"[m[K,qos_profile,fn);
+      |                                                 [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/sub.cpp:20:74:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   20 |     >create_subscription<std_msgs::msg::String>("topic_pub1",qos_profile,[01;35m[Kfn[m[K);
+      |                                                                          [01;35m[K^~[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/linux/ros2_ws/src/psub1/src/pub.cpp:12:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   12 |     [01;31m[K>[m[Kcreate_publisher<std_msgs::msg::String>("topic_pub1", qos_profile );
+      |     [01;31m[K^[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/pub.cpp:12:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::create_publisher[m[K’?
+   12 |     >[01;31m[Kcreate_publisher[m[K<std_msgs::msg::String>("topic_pub1", qos_profile );
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |      [32m[Krclcpp::create_publisher[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/linux/ros2_ws/src/psub1/src/pub.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/create_publisher.hpp:43:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::create_publisher[m[K’ declared here
+   43 | [01;36m[Kcreate_publisher[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/pub.cpp:12:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   12 |     >create_publisher<std_msgs::msg::String[01;31m[K>[m[K("topic_pub1", qos_profile );
+      |                                            [01;31m[K^[m[K
+[01m[K/home/linux/ros2_ws/src/psub1/src/pub.cpp:12:46:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   12 |     >create_publisher<std_msgs::msg::String>([01;35m[K"topic_pub1"[m[K, qos_profile );
+      |                                              [01;35m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
