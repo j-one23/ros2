@@ -4,3 +4,4 @@
 git add .  
 git commit -m "작업 내용"  
 git push  
+git push origin main  
