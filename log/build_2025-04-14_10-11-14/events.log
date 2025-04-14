@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'first_pkg'}
+[0.000333] (-) JobUnselected: {'identifier': 'psub1'}
+[0.000373] (-) JobUnselected: {'identifier': 'psub1_1'}
+[0.000411] (-) JobUnselected: {'identifier': 'pub1'}
+[0.000427] (-) JobUnselected: {'identifier': 'pub1_1'}
+[0.000442] (-) JobUnselected: {'identifier': 'pub1_2'}
+[0.000477] (-) JobUnselected: {'identifier': 'pub1_3'}
+[0.000494] (-) JobUnselected: {'identifier': 'pub2'}
+[0.000512] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.000550] (psub1_2) JobQueued: {'identifier': 'psub1_2', 'dependencies': OrderedDict()}
+[0.000569] (psub1_2) JobStarted: {'identifier': 'psub1_2'}
+[0.012961] (psub1_2) JobProgress: {'identifier': 'psub1_2', 'progress': 'cmake'}
+[0.015463] (psub1_2) Command: {'cmd': ['/usr/bin/cmake', '/home/linux/ros2_ws/src/psub1_2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/psub1_2'], 'cwd': '/home/linux/ros2_ws/build/psub1_2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'linux'), ('ROS_NAMESPACE', 'robot1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/linux'), ('OLDPWD', '/home/linux/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/linux/ros2_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/linux/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'linux'), ('NAME', 'DESKTOP-KIG2C5V'), ('WSL_INTEROP', '/run/WSL/607_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/linux/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/16/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/16/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/16/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.3.4/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/16/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/16/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/16/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/16/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.3.4/bin:/mnt/c/Users/16/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Users/16/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin'), ('WT_SESSION', '0f4802f3-7d2c-4706-8716-f73dd6b1a09f'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/linux/ros2_ws/install/psub1_1:/home/linux/ros2_ws/install/psub1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1_3:/home/linux/ros2_ws/install/pub1_1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/first_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/linux/ros2_ws/build/psub1_2'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/linux/ros2_ws/install/psub1_1:/home/linux/ros2_ws/install/psub1:/home/linux/ros2_ws/install/pub2:/home/linux/ros2_ws/install/pub1_3:/home/linux/ros2_ws/install/pub1_1:/home/linux/ros2_ws/install/pub1:/home/linux/ros2_ws/install/first_pkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099222] (-) TimerEvent: {}
+[0.199601] (-) TimerEvent: {}
+[0.299963] (-) TimerEvent: {}
+[0.343412] (psub1_2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400104] (-) TimerEvent: {}
+[0.500436] (-) TimerEvent: {}
+[0.600741] (-) TimerEvent: {}
+[0.614620] (psub1_2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.674683] (psub1_2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.700849] (-) TimerEvent: {}
+[0.797813] (psub1_2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.799521] (psub1_2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.800959] (-) TimerEvent: {}
+[0.901247] (-) TimerEvent: {}
+[0.913255] (psub1_2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.921986] (psub1_2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.922655] (psub1_2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.926013] (psub1_2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.001385] (-) TimerEvent: {}
+[1.039634] (psub1_2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.040357] (psub1_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101496] (-) TimerEvent: {}
+[1.159201] (psub1_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.168068] (psub1_2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.168432] (psub1_2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.180185] (psub1_2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.201640] (-) TimerEvent: {}
+[1.201913] (psub1_2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.202053] (psub1_2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.301820] (-) TimerEvent: {}
+[1.332806] (psub1_2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.366386] (psub1_2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.401966] (-) TimerEvent: {}
+[1.489546] (psub1_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.500065] (psub1_2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.502068] (-) TimerEvent: {}
+[1.602370] (-) TimerEvent: {}
+[1.702675] (-) TimerEvent: {}
+[1.803017] (-) TimerEvent: {}
+[1.903329] (-) TimerEvent: {}
+[1.979516] (psub1_2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.003446] (-) TimerEvent: {}
+[2.103751] (-) TimerEvent: {}
+[2.204070] (-) TimerEvent: {}
+[2.304387] (-) TimerEvent: {}
+[2.401257] (psub1_2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.404471] (-) TimerEvent: {}
+[2.504781] (-) TimerEvent: {}
+[2.605144] (-) TimerEvent: {}
+[2.705490] (-) TimerEvent: {}
+[2.805840] (-) TimerEvent: {}
+[2.906183] (-) TimerEvent: {}
+[3.006526] (-) TimerEvent: {}
+[3.106881] (-) TimerEvent: {}
+[3.166984] (psub1_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.207064] (-) TimerEvent: {}
+[3.233840] (psub1_2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.237008] (psub1_2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.239701] (psub1_2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.307167] (-) TimerEvent: {}
+[3.348954] (psub1_2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.349197] (psub1_2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.407272] (-) TimerEvent: {}
+[3.459805] (psub1_2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.460019] (psub1_2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.507414] (-) TimerEvent: {}
+[3.560237] (psub1_2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.560502] (psub1_2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.607526] (-) TimerEvent: {}
+[3.667021] (psub1_2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.667786] (psub1_2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.707695] (-) TimerEvent: {}
+[3.808027] (-) TimerEvent: {}
+[3.854655] (psub1_2) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[3.854850] (psub1_2) StderrLine: {'line': b"  ament_package_xml() package name 'psub1_2' in '/package.xml' does not match\n"}
+[3.854908] (psub1_2) StderrLine: {'line': b"  current PROJECT_NAME 'psub1_1'.  You must call project() with the same\n"}
+[3.854959] (psub1_2) StderrLine: {'line': b'  package name before.\n'}
+[3.855007] (psub1_2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.855062] (psub1_2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[3.855112] (psub1_2) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_package)\n'}
+[3.855161] (psub1_2) StderrLine: {'line': b'\n'}
+[3.855207] (psub1_2) StderrLine: {'line': b'\n'}
+[3.855737] (psub1_2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.855820] (psub1_2) StdoutLine: {'line': b'See also "/home/linux/ros2_ws/build/psub1_2/CMakeFiles/CMakeOutput.log".\n'}
+[3.855874] (psub1_2) StdoutLine: {'line': b'See also "/home/linux/ros2_ws/build/psub1_2/CMakeFiles/CMakeError.log".\n'}
+[3.861644] (psub1_2) CommandEnded: {'returncode': 1}
+[3.886393] (psub1_2) JobEnded: {'identifier': 'psub1_2', 'rc': 1}
+[3.897130] (-) EventReactorShutdown: {}

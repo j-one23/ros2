@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/linux/ros2_ws/build/psub1_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1_2 -- -j16 -l16
+[0.040s] [35m[1mScanning dependencies of target pub[0m
+[0.052s] [ 50%] Built target sub
+[0.057s] [ 75%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[0.948s] [01m[K/home/linux/ros2_ws/src/psub1_2/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.948s] [01m[K/home/linux/ros2_ws/src/psub1_2/src/pub.cpp:14:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto message[m[K’
+[0.948s]    14 |     auto [01;31m[Kmessage[m[K = std_msgs::msg::Int32();
+[0.948s]       |          [01;31m[K^~~~~~~[m[K
+[0.948s] [01m[K/home/linux/ros2_ws/src/psub1_2/src/pub.cpp:12:27:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd_msgs::msg::String message[m[K’
+[0.948s]    12 |     std_msgs::msg::String [01;36m[Kmessage[m[K;
+[0.949s]       |                           [01;36m[K^~~~~~~[m[K
+[0.949s] [01m[K/home/linux/ros2_ws/src/psub1_2/src/pub.cpp:14:35:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[0.949s]    14 |     auto message = std_msgs::msg::[01;31m[KInt32[m[K();
+[0.949s]       |                                   [01;31m[K^~~~~[m[K
+[1.556s] make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[1.557s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pub.dir/all] Error 2
+[1.557s] make: *** [Makefile:141: all] Error 2
+[1.559s] Invoked command in '/home/linux/ros2_ws/build/psub1_2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1_2 -- -j16 -l16

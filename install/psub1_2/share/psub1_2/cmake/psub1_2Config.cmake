@@ -1,0 +1,1 @@
+/home/linux/ros2_ws/build/psub1_2/ament_cmake_core/psub1_2Config.cmake

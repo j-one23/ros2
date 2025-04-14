@@ -1,0 +1,17 @@
+/home/linux/ros2_ws/install/psub1_2/lib/psub1_2/pub
+/home/linux/ros2_ws/install/psub1_2/lib/psub1_2/sub
+/home/linux/ros2_ws/install/psub1_2/share/ament_index/resource_index/package_run_dependencies/psub1_2
+/home/linux/ros2_ws/install/psub1_2/share/ament_index/resource_index/parent_prefix_path/psub1_2
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/environment/ament_prefix_path.sh
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/environment/ament_prefix_path.dsv
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/environment/path.sh
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/environment/path.dsv
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/local_setup.bash
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/local_setup.sh
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/local_setup.zsh
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/local_setup.dsv
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/package.dsv
+/home/linux/ros2_ws/install/psub1_2/share/ament_index/resource_index/packages/psub1_2
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/cmake/psub1_2Config.cmake
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/cmake/psub1_2Config-version.cmake
+/home/linux/ros2_ws/install/psub1_2/share/psub1_2/package.xml

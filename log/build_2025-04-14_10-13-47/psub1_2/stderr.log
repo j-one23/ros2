@@ -1,0 +1,10 @@
+[01m[K/home/linux/ros2_ws/src/psub1_2/src/pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/linux/ros2_ws/src/psub1_2/src/pub.cpp:13:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K+[m[K’ token
+   13 |     auto message = std[01;31m[K+[m[Kmsgs::msg::Int32();
+      |                       [01;31m[K^[m[K
+[01m[K/home/linux/ros2_ws/src/psub1_2/src/pub.cpp:13:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsgs[m[K’ has not been declared
+   13 |     auto message = std+[01;31m[Kmsgs[m[K::msg::Int32();
+      |                        [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
