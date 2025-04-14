@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/linux/ros2_ws/build/first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/first_pkg
+[0.126s] -- The C compiler identification is GNU 9.4.0
+[0.274s] -- The CXX compiler identification is GNU 9.4.0
+[0.331s] -- Check for working C compiler: /usr/bin/cc
+[0.445s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.445s] -- Detecting C compiler ABI info
+[0.554s] -- Detecting C compiler ABI info - done
+[0.562s] -- Detecting C compile features
+[0.562s] -- Detecting C compile features - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.686s] -- Detecting CXX compiler ABI info
+[0.807s] -- Detecting CXX compiler ABI info - done
+[0.816s] -- Detecting CXX compile features
+[0.816s] -- Detecting CXX compile features - done
+[0.818s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.835s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.835s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.964s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.979s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.032s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.033s] -- Added test 'lint_cmake' to check CMake code style
+[1.034s] -- Added test 'xmllint' to check XML markup files
+[1.035s] -- Configuring done
+[1.037s] -- Generating done
+[1.038s] -- Build files have been written to: /home/linux/ros2_ws/build/first_pkg
+[1.041s] Invoked command in '/home/linux/ros2_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/first_pkg
+[1.043s] Invoking command in '/home/linux/ros2_ws/build/first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/first_pkg -- -j16 -l16
+[1.070s] Invoked command in '/home/linux/ros2_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/first_pkg -- -j16 -l16
+[1.079s] Invoking command in '/home/linux/ros2_ws/build/first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/linux/ros2_ws/build/first_pkg
+[1.084s] -- Install configuration: ""
+[1.085s] -- Execute custom install script
+[1.085s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/ament_index/resource_index/package_run_dependencies/first_pkg
+[1.092s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/ament_index/resource_index/parent_prefix_path/first_pkg
+[1.098s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/ament_prefix_path.sh
+[1.106s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/ament_prefix_path.dsv
+[1.112s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/path.sh
+[1.119s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/path.dsv
+[1.126s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.bash
+[1.132s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.sh
+[1.138s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.zsh
+[1.145s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.dsv
+[1.151s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/package.dsv
+[1.158s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/ament_index/resource_index/packages/first_pkg
+[1.164s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/cmake/first_pkgConfig.cmake
+[1.170s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/cmake/first_pkgConfig-version.cmake
+[1.176s] -- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/package.xml
+[1.184s] Invoked command in '/home/linux/ros2_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/linux/ros2_ws/build/first_pkg

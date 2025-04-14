@@ -1,0 +1,6 @@
+Invoking command in '/home/linux/ros2_ws/build/first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/first_pkg
+Invoked command in '/home/linux/ros2_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/first_pkg
+Invoking command in '/home/linux/ros2_ws/build/first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/first_pkg -- -j16 -l16
+Invoked command in '/home/linux/ros2_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/first_pkg -- -j16 -l16
+Invoking command in '/home/linux/ros2_ws/build/first_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/linux/ros2_ws/build/first_pkg
+Invoked command in '/home/linux/ros2_ws/build/first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/linux/ros2_ws/build/first_pkg

@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/linux/ros2_ws/build/first_pkg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/ament_index/resource_index/package_run_dependencies/first_pkg
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/ament_index/resource_index/parent_prefix_path/first_pkg
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/path.sh
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/environment/path.dsv
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.bash
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.sh
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.zsh
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/local_setup.dsv
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/package.dsv
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/ament_index/resource_index/packages/first_pkg
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/cmake/first_pkgConfig.cmake
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/cmake/first_pkgConfig-version.cmake
+-- Symlinking: /home/linux/ros2_ws/install/first_pkg/share/first_pkg/package.xml
