@@ -1,2 +1,0 @@
-Invoking command in '/home/linux/ros2_ws/build/psub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1 -- -j16 -l16
-Invoked command in '/home/linux/ros2_ws/build/psub1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1 -- -j16 -l16
