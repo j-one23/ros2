@@ -1,1 +1,0 @@
-/home/linux/ros2_ws/build/first_pkg/ament_cmake_core/first_pkgConfig-version.cmake
